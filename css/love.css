@@ -140,12 +140,6 @@ html, body {
     :root { --unit-size: 20px; }
     .body_left { width: 100px; }
 }
-.love .block {
-    visibility: visible !important;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-}
 
 .love .div1,
 .love .div2,
