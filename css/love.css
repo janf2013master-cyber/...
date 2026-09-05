@@ -140,3 +140,20 @@ html, body {
     :root { --unit-size: 20px; }
     .body_left { width: 100px; }
 }
+.love .block {
+    visibility: visible !important;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+.love .div1,
+.love .div2,
+.love .div3,
+.love .div4 {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background: url("../heart.png") no-repeat;
+    background-size: contain;
+}
