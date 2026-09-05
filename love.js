@@ -7,7 +7,8 @@ window.onload = function () {
     }
 
     // --- 1. CONTEXTO DE ÁUDIO E ELEMENTOS DO DOM ---
-    const audioContext = new (window.AudioContext || window.webkitAudioContext)();
+    const AudioContext = window.AudioContext || window.webkitAudioContext;
+const audioContext = AudioContext ? new AudioContext() : null;
     const audio = document.getElementById('audios');
     const gifImage = document.querySelector('.body_left img');
     const loveContainer = document.querySelector(".love");
