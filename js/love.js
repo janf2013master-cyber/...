@@ -164,6 +164,6 @@ const audioContext = AudioContext ? new AudioContext() : null;
 
         setTimeout(() => {
             let creationInterval = setInterval(() => drawNextPartScoped(creationInterval), 300);
-        }, 12000);
+        }, 1000);
     })();
 };
