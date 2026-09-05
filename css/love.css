@@ -71,7 +71,7 @@ html, body {
     width: var(--unit-size);
     height: var(--unit-size);
     position: absolute;
-    background: url("../images/heart.png") no-repeat;
+    background: url("../heart.png") no-repeat;
     background-size: contain;
     cursor: pointer;
 }
