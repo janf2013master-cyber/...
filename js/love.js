@@ -152,7 +152,7 @@ const audioContext = AudioContext ? new AudioContext() : null;
         if (muteButton && audio) {
             muteButton.addEventListener('click', () => {
                 audio.muted = !audio.muted;
-                muteButton.textContent = audio.muted ? '💔' : '❤️';
+                muteButton.textContent = audio.muted ? '💔' : '💘';
             });
         }
         
